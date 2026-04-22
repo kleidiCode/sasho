@@ -1,7 +1,7 @@
 class Sasho < Formula
   desc "Native macOS window manager with keyboard shortcuts and trackpad gestures"
-  homepage "https://github.com/shan/sasho"
-  url "https://github.com/shan/sasho/archive/refs/tags/v0.1.0.tar.gz"
+  homepage "https://github.com/kleidiCode/sasho"
+  url "https://github.com/kleidiCode/sasho/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "PLACEHOLDER_SHA256"
   license "Apache-2.0"
   version "0.1.0"

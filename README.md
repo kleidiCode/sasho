@@ -1,6 +1,6 @@
 # Sasho
 
-A native macOS window manager. Zero dependencies, instant snapping, runs silently in your menu bar.
+A native macOS window manager. Zero dependencies, instant snapping, runs silently in your menu bar. Always free, no ads, no upsell.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
@@ -20,7 +20,7 @@ A native macOS window manager. Zero dependencies, instant snapping, runs silentl
 ### Homebrew
 
 ```bash
-brew tap shan/sasho
+brew tap kleidiCode/sasho
 brew install sasho
 ```
 
@@ -29,7 +29,7 @@ brew install sasho
 Requires macOS 13+ and Swift 5.9+ (included with Xcode Command Line Tools).
 
 ```bash
-git clone https://github.com/shan/sasho.git
+git clone https://github.com/kleidiCode/sasho.git
 cd sasho
 ./build.sh
 ./sasho
