@@ -23,7 +23,7 @@ A native macOS window manager. Zero dependencies, instant snapping, runs silentl
 curl -fsSL https://raw.githubusercontent.com/kleidiCode/sasho/master/install.sh | bash
 ```
 
-This downloads, installs, and starts Sasho in one command. Enable **Launch at Login** from the menu bar icon to run on startup.
+This downloads, installs, starts Sasho in the background, and sets it to **launch automatically on login** — no further setup needed.
 
 ### Homebrew
 
@@ -86,6 +86,12 @@ Sasho requires **Accessibility** access to control other applications' windows.
 
 On first launch, macOS will prompt you to grant access in:
 **System Settings → Privacy & Security → Accessibility**
+
+## Uninstall
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kleidiCode/sasho/master/uninstall.sh | bash
+```
 
 ## License
 
