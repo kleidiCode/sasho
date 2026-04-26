@@ -17,19 +17,20 @@ A native macOS window manager. Zero dependencies, instant snapping, runs silentl
 
 ## Install
 
+### Quick Install (recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kleidiCode/sasho/master/install.sh | bash
+```
+
+This downloads, installs, and starts Sasho in one command. Enable **Launch at Login** from the menu bar icon to run on startup.
+
 ### Homebrew
 
 ```bash
 brew tap kleidiCode/sasho
 brew install sasho
-```
-
-### Direct Download
-
-```bash
-curl -sL https://github.com/kleidiCode/sasho/releases/download/v0.1.0/sasho-v0.1.0-macos-arm64.tar.gz | tar xz
-sudo mv sasho /usr/local/bin/
-sasho
+nohup sasho &
 ```
 
 ### Build from Source
@@ -40,7 +41,7 @@ Requires macOS 13+ and Swift 5.9+ (included with Xcode Command Line Tools).
 git clone https://github.com/kleidiCode/sasho.git
 cd sasho
 ./build.sh
-./sasho
+nohup ./sasho &
 ```
 
 ## Keyboard Shortcuts
