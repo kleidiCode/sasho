@@ -24,6 +24,14 @@ brew tap kleidiCode/sasho
 brew install sasho
 ```
 
+### Direct Download
+
+```bash
+curl -sL https://github.com/kleidiCode/sasho/releases/download/v0.1.0/sasho-v0.1.0-macos-arm64.tar.gz | tar xz
+sudo mv sasho /usr/local/bin/
+sasho
+```
+
 ### Build from Source
 
 Requires macOS 13+ and Swift 5.9+ (included with Xcode Command Line Tools).
